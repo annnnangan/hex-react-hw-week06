@@ -1,5 +1,4 @@
 import SectionFallback from "../components/SectionFallback";
-import React from "react";
 
 export default {
   title: "Section Fallback",
@@ -9,6 +8,6 @@ export default {
 export const SectionFallbackWithIcon = {
   args: {
     materialIconName: "event_busy",
-    fallbackText: "導師暫無可預約時間",
+    fallbackText: "導師此星期暫無可預約時間",
   },
 };
